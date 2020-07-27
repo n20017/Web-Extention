@@ -1,0 +1,12 @@
+EOL = '0 0'
+for e in iter(inout,EOL):
+x,y = map(e,split())
+if x <= y:
+print(x,y)
+else:
+print(y,x)
+
+
+
+実行し方
+cat 

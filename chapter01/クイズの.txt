@@ -1,0 +1,111 @@
+カレントディレクトリーは現在いるところ
+
+mvでfile名を変更
+
+カレントディレクトリを移動するコマンドはcd
+
+ドットを含むのを表示するにはls-a
+
+tabキーは予想されるものを表示
+
+上下矢印は前に入力したのを表示
+
+findコマンドを使って、ホームディレクトリ以下からfile1ファイルを探すには? ~name file1
+
+lsのマニュアルを表示するコマンドは　man ls
+
+「ls -la」に「la」というエイリアスを付けるコマンド?alias la='ls -la'
+
+「rm -i」に「rm」というエイリアスを付けるコマンド?alias rm='rm -i'
+
+シェル変数vartestに「test test test」を設定するコマンド?vartest='test test test'
+
+シェル変数LANGに「en_US.UTF-8」を設定するコマンド?LANG=en_US.UTF-8
+
+シェル変数PATHに「~/bin」を追加し、環境変数に設定するコマンド?PATH=$PATH:~/bin
+
+5月28日の問題
+カレントディレクトリにあるファイルfile1のグループ、そのほかのユーザの読み取り、書き込み権限を禁止するコマンド?chmod go-rw file1
+
+chmod o-r dir2/
+
+5.安全に使うため
+
+6月2日の問題
+１．
+
+２.ps af
+
+3.killコマンド
+
+4.fg %2
+
+5.jobs
+
+6月3日の問題
+１. xeyes &
+
+２．kill 
+
+３．kill -9
+
+４．ls -l /etc/ > etc.list
+
+５．command1 < input1 > output.txt2
+
+6月4日の問題
+１．command1 < pnput1 > 
+
+２．cat /etc/ctontab | less
+
+３．history | tail -n 5
+
+４．history | grep xeyes
+
+５．du -b /bin/* | sort -n | head -n 5
+
+6月9日の問題
+１．sort -r file1 > file1.rv
+
+２．sort -nr number.txt > file1.rv
+
+３．sort file3 | uniq -c > file3.cnt
+
+４．grep bash /etc/passwd | wc -l
+
+５．cut -f 1,2,3 /etc/services | grep -v '^#' | less
+
+6月10日の問題
+１．eecho 2 5 9 8  1 3 7 4 | tr ''+
+
+２．tail -f application.log | grep error
+
+３．diff -u file1 file2 > out.diff
+
+４．grep -E '\.(com|net)$' example,txt > outout.txt
+
+５．grep 'B[ea][ea]r' drink.txt > output.txt
+
+
+6月11日の問題
+１．
+
+２．sed '5,$ d' drink2.txt
+
+３．sed '/r$/ d' drink2.txt
+
+４．sed -n '/^B/ p' drink2.txt
+
+５．sed 's/Beer/Vodka/g' drink2.txt
+
+6月16日の問題
+１．sed -r 's/My (.+)/==> \1/' drink2.txt
+
+２．sed '1~2 s/^/-/' drink2.txt | sed '2~2 s/^/+/'
+
+３．sed 's/B[^r]*r/Whiskey/g' drink2.txt
+
+6月17日の問題
+１．sed -r 's/(.)/\1\n' drink2.txt
+
+２．sed -r 's/(.)/\1\n' drink2.txt | grep -v '^$' | sort | uniq
