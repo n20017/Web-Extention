@@ -1,0 +1,42 @@
+@charset "utf-8";
+html, boby {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #5ee2f3;
+    background: rgb(10, 10, 10);
+}
+
+.mirai {color: rgb(230, 163, 161);}
+
+.m {color: rgb(250, 152, 135);}
+
+.n {
+    border: solid  seagreen;
+}
+
+.s {
+    border: solid coral;
+}
+
+img  {
+    width: 100%;
+    height: auto;
+}
+
+.o {color: rgb(243, 90, 30);}
+
+.g {
+    width: 600px;
+}
+
+.l {
+    width: 600px;
+}
+
+.t {width: 800px;}
+
+.f {color: rgb(73, 248, 225);}
+
+.w {
+    overflow: hidden;
+}
