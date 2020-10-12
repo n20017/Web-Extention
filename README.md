@@ -12,4 +12,4 @@
 8.Chapter08　[リンクの設定と画像の表示](/chapter08/ch08-linkimg.html)  
 9.Chapter09　[ボックスと情報の処理](/chapter09/ch09-boxcss.html)  
 10.Chapter10　[テーブル]  
-11.Task01 $ensp; $ensp; [ITカレッジの紹介ページ](/Task01/index.html)  
+11.Task01 &ensp; &ensp; [ITカレッジの紹介ページ](/Task01/index.html)  
